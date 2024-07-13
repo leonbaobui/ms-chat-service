@@ -1,15 +1,15 @@
 package com.twitter.chat.helper;
 
-import com.gmail.merikbest2015.dto.response.chat.ChatTweetResponse;
-import com.gmail.merikbest2015.dto.response.chat.ChatUserParticipantResponse;
-import com.gmail.merikbest2015.exception.ApiRequestException;
+import main.java.com.leon.baobui.dto.response.chat.ChatTweetResponse;
+import main.java.com.leon.baobui.dto.response.chat.ChatUserParticipantResponse;
+import main.java.com.leon.baobui.exception.ApiRequestException;
 import com.twitter.chat.client.TweetClient;
 import com.twitter.chat.client.UserClient;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
-import static com.gmail.merikbest2015.constants.ErrorMessage.CHAT_PARTICIPANT_BLOCKED;
+import static main.java.com.leon.baobui.constants.ErrorMessage.CHAT_PARTICIPANT_BLOCKED;
 
 @Component
 @RequiredArgsConstructor

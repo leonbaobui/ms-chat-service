@@ -1,8 +1,8 @@
 package com.twitter.chat.service;
 
-import com.gmail.merikbest2015.exception.ApiRequestException;
-import com.gmail.merikbest2015.mapper.BasicMapper;
-import com.gmail.merikbest2015.util.AuthUtil;
+import main.java.com.leon.baobui.exception.ApiRequestException;
+import main.java.com.leon.baobui.mapper.BasicMapper;
+import main.java.com.leon.baobui.util.AuthUtil;
 import com.twitter.chat.client.WebsocketClient;
 import com.twitter.chat.dto.request.ChatMessageRequest;
 import com.twitter.chat.dto.response.ChatMessageResponse;
@@ -25,8 +25,8 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-import static com.gmail.merikbest2015.constants.ErrorMessage.CHAT_NOT_FOUND;
-import static com.gmail.merikbest2015.constants.WebsocketConstants.TOPIC_CHAT;
+import static main.java.com.leon.baobui.constants.ErrorMessage.CHAT_NOT_FOUND;
+import static main.java.com.leon.baobui.constants.WebsocketConstants.TOPIC_CHAT;
 
 @RequiredArgsConstructor
 @Service

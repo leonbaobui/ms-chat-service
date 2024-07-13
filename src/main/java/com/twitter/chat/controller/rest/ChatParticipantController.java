@@ -1,6 +1,6 @@
 package com.twitter.chat.controller.rest;
 
-import com.gmail.merikbest2015.dto.response.user.UserResponse;
+import main.java.com.leon.baobui.dto.response.user.UserResponse;
 import com.twitter.chat.dto.request.ChatMessageRequest;
 import com.twitter.chat.dto.response.ChatMessageResponse;
 import com.twitter.chat.service.ChatParticipantService;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-import static com.gmail.merikbest2015.constants.PathConstants.*;
+import static main.java.com.leon.baobui.constants.PathConstants.*;
 
 @RestController
 @RequiredArgsConstructor

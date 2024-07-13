@@ -1,9 +1,9 @@
 package com.twitter.chat.service;
 
-import com.gmail.merikbest2015.dto.response.user.UserResponse;
-import com.gmail.merikbest2015.exception.ApiRequestException;
-import com.gmail.merikbest2015.mapper.BasicMapper;
-import com.gmail.merikbest2015.util.AuthUtil;
+import main.java.com.leon.baobui.dto.response.user.UserResponse;
+import main.java.com.leon.baobui.exception.ApiRequestException;
+import main.java.com.leon.baobui.mapper.BasicMapper;
+import main.java.com.leon.baobui.util.AuthUtil;
 import com.twitter.chat.client.UserClient;
 import com.twitter.chat.repository.ChatParticipantRepository;
 import com.twitter.chat.repository.ChatRepository;
@@ -15,7 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
-import static com.gmail.merikbest2015.constants.ErrorMessage.CHAT_PARTICIPANT_NOT_FOUND;
+import static main.java.com.leon.baobui.constants.ErrorMessage.CHAT_PARTICIPANT_NOT_FOUND;
 
 @Service
 @RequiredArgsConstructor

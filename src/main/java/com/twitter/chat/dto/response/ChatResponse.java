@@ -2,7 +2,7 @@ package com.twitter.chat.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.gmail.merikbest2015.dto.response.chat.ChatUserParticipantResponse;
+import main.java.com.leon.baobui.dto.response.chat.ChatUserParticipantResponse;
 import lombok.*;
 
 import java.time.LocalDateTime;

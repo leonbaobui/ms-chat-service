@@ -1,6 +1,6 @@
 package com.twitter.chat.repository.projection;
 
-import com.gmail.merikbest2015.dto.response.chat.ChatTweetResponse;
+import main.java.com.leon.baobui.dto.response.chat.ChatTweetResponse;
 import com.twitter.chat.dto.response.ChatMessageResponse;
 import org.springframework.beans.factory.annotation.Value;
 

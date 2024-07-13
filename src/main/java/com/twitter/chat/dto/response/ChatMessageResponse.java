@@ -1,6 +1,6 @@
 package com.twitter.chat.dto.response;
 
-import com.gmail.merikbest2015.dto.response.chat.ChatTweetResponse;
+import main.java.com.leon.baobui.dto.response.chat.ChatTweetResponse;
 import lombok.Data;
 
 import java.time.LocalDateTime;

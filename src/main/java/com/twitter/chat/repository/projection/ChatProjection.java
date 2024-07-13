@@ -1,6 +1,6 @@
 package com.twitter.chat.repository.projection;
 
-import com.gmail.merikbest2015.dto.response.chat.ChatUserParticipantResponse;
+import main.java.com.leon.baobui.dto.response.chat.ChatUserParticipantResponse;
 import org.springframework.beans.factory.annotation.Value;
 
 import java.time.LocalDateTime;
