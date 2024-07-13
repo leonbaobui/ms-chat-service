@@ -1,0 +1,35 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port : 8087
+  servlet:
+    context-path: /ms-chat-service
+
+spring:
+  application:
+    name: ms-chat-service
+  flyway:
+    enabled: true
+    baseline-on-migrate : true
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/ms_chat_service
+    username: postgres
+    password: root
+    driverClassName: org.postgresql.Driver
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://${EUREKA_HOST:localhost}:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    hostname: ${EUREKA_HOST:localhost}
